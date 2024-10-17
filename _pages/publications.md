@@ -13,6 +13,27 @@ nav_order: 4
 
 <!-- {% include bib_search.liquid %} -->
 
+<div>
+    <b>Research Interests</b>
+    <ul>
+        <li>High-throughput workflow development </li>
+        <li>DFT-based predictions of catalyst activity, selectivity, and stability</li>
+        <li>Uncertainty quantification </li>
+        <li>Matching results from predictions and experiments</li>
+        <li>Accelerating catalyst discovery with ML/AI</li>
+    </ul>
+</div>
+
+<div>
+    <b>Publication status as of October 2024</b>
+    <ul>
+        <li>Accepted: 1 Exper+Theory (Nature Communications)</li>
+        <li>In Progress: 2 Exper+Theory </li>
+    </ul>
+</div>
+
+Most up to date history is on my [Google Scholar](https://scholar.google.com/citations?user=rWej_2AAAAAJ&hl=en) page. 
+
 <div class="publications">
 
 {% bibliography %}
