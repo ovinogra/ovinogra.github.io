@@ -25,4 +25,4 @@ I’m passionate about how human interaction with practical datasets shapes the 
 
 Outside of work, I love solving and writing puzzlehunts. See the [puzzles](https://ovinogra.github.io/puzzles/) page for projects I've worked on. 
 
-Outside of my virtual life I enjoy skiing, cardio kickboxing, and traditional square-rig tallship sailing (yes, like in pirate movies). 
+Outside of my virtual life I enjoy skiing, cardio kickboxing, and traditional square-rig tallship sailing. 

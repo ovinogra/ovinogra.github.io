@@ -11,13 +11,15 @@ horizontal: false
 
 <!-- {% include puzzles.html %} -->
 
-I spend a lot of time solving and writing hunt-style puzzles. If you don't know what those are, [this introductory post](https://blog.vero.site/post/puzzlehunts) offers a good explanation for this rather niche hobby. The gist is that a puzzlehunt puzzle is some information that does not come with instructions on what to do with it. That's up to you to figure out, but it will always result in an answer which is an English word or phrase. 
+I spend a lot of time solving and writing hunt-style puzzles. If you don't know what those are, [this introductory post](https://blog.vero.site/post/puzzlehunts) offers a good explanation for this rather niche hobby. 
 
-The puzzles can be <i>anything</i>: images, crosswords, logic, wordplay, etc. My favorite are those that require some sort of ✨ spatial reasoning or unusual logic ✨ so I also gravitate towards writing those types. (This probably relates to my research because I love visualizing 3D atomic structures and graph networks...)
+The gist is that a puzzlehunt puzzle is some information that does not come with instructions on what to do with it. That's up to you to figure out, but it will always result in an answer which is an English word or phrase. 
 
-For this hobby, I ended up learning graphic arts (both vector and raster) and picking up some frontend development. I made significant contributions to all of these projects ranging from "sole designer" to "created a lot of art assets."
+Hunt puzzles can be <i>anything</i>: images, crosswords, logic, wordplay, etc. My favorite are those that require some sort of spatial reasoning or unusual logic deducations so I also gravitate towards writing those types. (This probably relates to my research because I love visualizing 3D atomic structures and graph networks...)
 
-For completeness, I am including everything I am credited on writing, though the amount of my input varies. I am putting a ⭐ next to my favorite non-metapuzzles. 
+I also ended up learning graphic arts (both vector and raster) and picking up some frontend development. I made significant art contributions to all of these projects ranging from "sole designer" to "created a lot of assets."
+
+For completeness, I am including everything I am credited on writing, though the amount of my input varies. I put a ⭐ next to my favorite puzzles I've worked on. 
 
 
 <img src="/assets/img/puzzles/shardhunt.png" alt="isolated" height="80"/> 

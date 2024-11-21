@@ -24,15 +24,8 @@ nav_order: 4
     </ul>
 </div>
 
-<div>
-    <b>Publication status as of October 2024</b>
-    <ul>
-        <li>Accepted: 1 Exper+Theory (Nature Communications)</li>
-        <li>In Progress: 2 Exper+Theory </li>
-    </ul>
-</div>
 
-Most up to date history is on my [Google Scholar](https://scholar.google.com/citations?user=rWej_2AAAAAJ&hl=en) page. 
+Most up to date publication history is on my [Google Scholar](https://scholar.google.com/citations?user=rWej_2AAAAAJ&hl=en) page. 
 
 <div class="publications">
 
