@@ -23,6 +23,6 @@ I'm a computational research scientist in catalysis and material science. I stud
 
 I’m passionate about how human interaction with practical datasets shapes the way we perceive and interact with the world. I'm excited by learning how the latest in emerging ML/AI technologies impacts real-world challenges in engineering, from energy storage storage to sustainable chemical production. 
 
-Outside of work, I love solving and writing puzzlehunts. See the [puzzles](https://ovinogra.github.io/puzzles/) page for projects I've worked on. 
+Outside of work, I enjoy solving and writing puzzlehunts. See the [puzzles](https://ovinogra.github.io/puzzles/) page for projects I've worked on. 
 
 Outside of my virtual life I enjoy skiing, cardio kickboxing, and traditional square-rig tallship sailing. 
