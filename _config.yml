@@ -69,48 +69,48 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-acm_id: # your dl.acm.org/profile/id
-blogger_url: # your blogger URL
-bluesky_url: # your bluesky URL
-dblp_url: # your DBLP profile url
-discord_id: # your discord id (18-digit unique numerical identifier)
-facebook_id: # your facebook id
-flickr_id: # your flickr id
+# acm_id: # your dl.acm.org/profile/id
+# blogger_url: # your blogger URL
+# bluesky_url: # your bluesky URL
+# dblp_url: # your DBLP profile url
+# discord_id: # your discord id (18-digit unique numerical identifier)
+# facebook_id: # your facebook id
+# flickr_id: # your flickr id
 github_username: ovinogra # your GitHub user name
-gitlab_username: # your GitLab user name
-ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: # Inspire HEP author ID
-instagram_id: # your instagram id
-kaggle_id: # your kaggle id
-keybase_username: # your keybase user name
-lastfm_id: # your lastfm id
-lattes_id: # your ID on Lattes (Brazilian Lattes CV)
+# gitlab_username: # your GitLab user name
+# ieee_id: # your ieeexplore.ieee.org/author/id
+# inspirehep_id: # Inspire HEP author ID
+# instagram_id: # your instagram id
+# kaggle_id: # your kaggle id
+# keybase_username: # your keybase user name
+# lastfm_id: # your lastfm id
+# lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: ovinogradova # your LinkedIn user name
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-medium_username: # your Medium username
-orcid_id: # your ORCID ID
-osf_id: # your OSF ID
-pinterest_id: # your pinterest id
-publons_id: # your ID on Publons
-quora_username: # your Quora username
-research_gate_profile: # your profile on ResearchGate
+# mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+# medium_username: # your Medium username
+# orcid_id: # your ORCID ID
+# osf_id: # your OSF ID
+# pinterest_id: # your pinterest id
+# publons_id: # your ID on Publons
+# quora_username: # your Quora username
+# research_gate_profile: # your profile on ResearchGate
 scholar_userid: rWej_2AAAAAJ # your Google Scholar ID
-scopus_id: # your profile on Scopus
-semanticscholar_id: # your Semantic Scholar ID
-spotify_id: # your spotify id
-stackoverflow_id: # your stackoverflow id
-telegram_username: # your Telegram user name
-unsplash_id: # your unsplash id
-wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-wikidata_id: # your wikidata id
-wikipedia_id: # your wikipedia id (Case sensitive)
-work_url: # work page URL
-x_username: # your X handle
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-zotero_username: # your zotero username
+# scopus_id: # your profile on Scopus
+# semanticscholar_id: # your Semantic Scholar ID
+# spotify_id: # your spotify id
+# stackoverflow_id: # your stackoverflow id
+# telegram_username: # your Telegram user name
+# unsplash_id: # your unsplash id
+# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+# wikidata_id: # your wikidata id
+# wikipedia_id: # your wikipedia id (Case sensitive)
+# work_url: # work page URL
+# x_username: # your X handle
+# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+# zotero_username: # your zotero username
 
-contact_note: 
+# contact_note: 
 
 
 # -----------------------------------------------------------------------------
@@ -131,33 +131,33 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+# blog_name: al-folio # blog_name will be displayed in your blog page
+# blog_description: a simple whitespace theme for academics
+# permalink: /blog/:year/:title/
+# lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
   enabled: false
 
-related_blog_posts:
-  enabled: true
-  max_related: 5
+# related_blog_posts:
+#   enabled: true
+#   max_related: 5
 
-# Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
-giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-  category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-  mapping: title # identify discussions by post title
-  strict: 1 # use strict identification mode
-  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
-  emit_metadata: 0
-  lang: en
+# # Giscus comments (RECOMMENDED)
+# # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
+# giscus:
+#   repo: # <your-github-user-name>/<your-github-repo-name>
+#   repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
+#   category: Comments # name of the category under which discussions will be created
+#   category_id: # leave empty or specify your category_id (see https://giscus.app/)
+#   mapping: title # identify discussions by post title
+#   strict: 1 # use strict identification mode
+#   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
+#   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
+#   theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
+#   emit_metadata: 0
+#   lang: en
 
 # Disqus comments (DEPRECATED)
 # disqus_shortname: al-folio # put your disqus shortname
@@ -166,7 +166,7 @@ giscus:
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
+# external_sources:
   # - name: medium.com
   #   rss_url: https://medium.com/@al-folio/feed
   # - name: Google Blog
@@ -179,33 +179,33 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 newsletter:
-  enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
-  # https://loops.so/docs/forms/custom-form
+  # enabled: false
+  # endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
+  # # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /:collection/:title/
-  projects:
-    output: true
-    permalink: /:collection/:title/
+# collections:
+#   news:
+#     defaults:
+#       layout: post
+#     output: true
+#     permalink: /:collection/:title/
+#   projects:
+#     output: true
+#     permalink: /:collection/:title/
 
-announcements:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+# announcements:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+#   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: false
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -629,19 +629,19 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# jekyll_get_json:
+#   - data: resume
+#     json: assets/json/resume.json # it can also be an url
+# jsonresume:
+#   - basics
+#   - work
+#   - education
+#   - publications
+#   - projects
+#   - volunteer
+#   - awards
+#   - certificates
+#   - skills
+#   - languages
+#   - interests
+#   - references
