@@ -52,9 +52,9 @@ For completeness, I am including everything I am credited on writing, though the
 * [Single Elimination](https://2021.teammatehunt.com/puzzles/single-elimination): (small contribution)
 
 <img src="/assets/img/puzzles/cmu2.png" alt="isolated" height="80"/>
-[CMU Puzzlehunt, Spring 2021](https://puzzlehunt.club.cc.cmu.edu/hunt/16/)
-* [Tall Tales](https://puzzlehunt.club.cc.cmu.edu/puzzle/16073/): printers devilry 
-* [Slithering the Sea](https://puzzlehunt.club.cc.cmu.edu/puzzle/16061/): sea shanties + logic
+[CMU Puzzlehunt, Spring 2021](https://puzzlehunt.club.cc.cmu.edu/hunt/16/view/)
+* [Tall Tales](https://puzzlehunt.club.cc.cmu.edu/puzzle/16073/view/): printers devilry 
+* [Slithering the Sea](https://puzzlehunt.club.cc.cmu.edu/puzzle/16061/view/): sea shanties + logic
 
 Shardhunt 2021
 * [Pathfinding](https://drive.google.com/file/d/1M7TD3LHJNZqm2wt1fG0v62egwBHHPG4Z/view?usp=sharing): word search
@@ -63,9 +63,9 @@ Shardhunt 2021
 * [Compound Words](https://drive.google.com/file/d/1no9NeL6ZZzpGoTO-mgIELJx8eYblgPAh/view?usp=sharing): (meta) wordplay
 
 <img src="/assets/img/puzzles/cmu1.png" alt="isolated" height="80"/>
-[CMU Puzzlehunt, Fall 2020](https://puzzlehunt.club.cc.cmu.edu/hunt/15/)
-* ⭐ [Directions](https://puzzlehunt.club.cc.cmu.edu/puzzle/15026/): grid logic, kind of
-* [YOU HAVE DIED OF DYSENTERY](https://puzzlehunt.club.cc.cmu.edu/puzzle/15012/): semantics
-* [Dividing the Land](https://puzzlehunt.club.cc.cmu.edu/puzzle/15030/): (meta) logic, kind of
+[CMU Puzzlehunt, Fall 2020](https://puzzlehunt.club.cc.cmu.edu/hunt/15/view/)
+* ⭐ [Directions](https://puzzlehunt.club.cc.cmu.edu/puzzle/15026/view/): grid logic, kind of
+* [YOU HAVE DIED OF DYSENTERY](https://puzzlehunt.club.cc.cmu.edu/puzzle/15012/view/): semantics
+* [Dividing the Land](https://puzzlehunt.club.cc.cmu.edu/puzzle/15030/view/): (meta) logic, kind of
 
 
