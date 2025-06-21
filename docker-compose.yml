@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  jekyll:
+    build: .
+    ports:
+      - "8080:4000"
+    volumes:
+      - .:/srv/jekyll:cached
+    environment:
+      - JEKYLL_ENV=development
+    user: "${UID}:${GID}"

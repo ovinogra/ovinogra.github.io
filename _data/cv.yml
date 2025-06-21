@@ -1,0 +1,104 @@
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. Chemical Engineering
+      institution: Carnegie Mellon University
+      year: 2016-2021
+    - title: B.Sc. Chemical Engineering
+      institution: Pennsylvania State University
+      year: 2012-2016
+      description:
+        - Schreyer Honors College
+        - Minor in Energy Engineering
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Research Scientist
+      institution: Fritz Haber Institute of the Max Planck Society, Berlin, DE
+      year: 2021 - 2024
+      description:
+        - High-throughput workflow design of surface science models in chemical reaction engineering
+    - title: Graduate Research Assistant
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: 2016-2021
+      description:
+        - Data driven design and discovery of novel catalyst materials for fuel cell catalysis through targeted chemical structure predictions 
+
+- title: Skills
+  type: list
+  contents:
+    - <b>Programming:</b> Python (NumPy, Pandas, Matplotlib, PyTorch), C++, MATLAB, Unix, SQL, git
+    - <b>Methodologies:</b> First Principles Simulations (DFT, Quantum Espresso, GPAW), AI / ML, Data Science, High-Performance Computing (HPC)
+    - <b>Leadership:</b> Oral and Written Technical Communication, Project Management, Teaching, Mentoring
+    - <b>Certifications:</b> Generative AI with Diffusion Models (NVIDIA) 
+
+- title: Other Experience
+  type: time_table
+  contents:
+    - title: Graduate Teaching Assistant
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: 2016-2019
+      description: TA for Introduction to Chemical Engineering for 4 semesters. Created lesson plans for teaching MATLAB and Python to students with no previous programming experience. 
+
+    - title: 200-level Mathematics Tutor and Center Coordinator
+      institution: Penn State Learning, Pennsylvania State University
+      year: 2013-2016
+      description: Tutor for ordinary and partial differential equations, vector calculus, matrices, and MATLAB. Led scheduling for the upper-level mathematics tutoring office.
+
+    - title: Simulations Intern
+      institution: Fraunhofer Institute for Solar Energies Systems, Freiburg im Breisgau, DE
+      year: 2015
+      description: Systems-level simulation of an in-house methanol synthesis pilot plant using CHEMCAD.
+
+    - title: Tech & Engineering Intern
+      institution: Williams Companies, Tunkhannock, PA
+      year: 2015
+      description: Researched dehydrogenation solutions for technical feasibility and cost analysis.
+
+    - title: Research Assistant
+      institution: Pennsylvania State University, State College, PA
+      year: 2013-2016
+      description: Bachelors honors thesis in wet lab membrane protein expression. 
+
+
+- title: Course Projects
+  type: time_table
+  contents:
+    - title: Introduction to Machine Learning, CMU
+      description:
+        - First principles approach using only numpy to implement common algorithms in supervised and unsupervised machine learning 
+    - title: Molecular Dynamics Simulations, CMU
+      description: 
+        - First-principles approach in C++ to implement classical molecular dynamics algorithms for investigating material properties
+    - title: Electrochemical Systems, CMU
+      description: 
+        - System-scale modeling of energy storage demand based on changing peak loads
+
+
+- title: Involvement
+  type: nested_list
+  contents:
+    - title: Leadership and Outreach
+      items:
+        - Postdoc Representative, Fritz Haber Institute, 2023
+        - Webmaster, CMU Graduate Student Association, 2019-2020
+        - Judge, mentor, & foreign language interpreter, <a href="https://futurecity.org/">Future City Competition</a> for middle-school students, 2016-2019
+    - title: Puzzlehunting
+      items:
+        - Contributed puzzles and artwork for the <a href="https://puzzles.mit.edu/2023/">2023 MIT Mystery Hunt</a> and <a href="https://2021.teammatehunt.com/">Teammate Hunt</a>
+        - Created <a href="https://github.com/ovinogra/Mbot">M-Bot</a>, an open source hunt team collaboration app, to integrate Google Drive and Discord
+        - Writer and artist for <a href="https://puzzlehunt.club.cc.cmu.edu/">PuzzleHunt CMU</a> (2020-2021)
+
+- title: Fellowships and Awards
+  type: list
+  contents:
+    - <b> RISE Professional Fellowship</b>, DAAD, 2020
+    - <b> Bushnell Fellowship</b>, CMU, 2020
+    - <b> Kokes Travel Award</b>, North American Catalysis Society, 2019
+    - <b> Electrochemical Best Poster Award</b>, CMU, 2018
+    - <b> Schreyer Travel Award</b>, PSU, 2015
+    - <b> BioFellowship REU</b>, PSU, 2014
+
+
