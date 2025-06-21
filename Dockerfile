@@ -1,8 +1,7 @@
-FROM ruby:latest
-ENV DEBIAN_FRONTEND noninteractive
+# Use a recent Ruby slim base
+FROM ruby:3.2-slim
 
-Label MAINTAINER Amir Pourmand
-
+# Install build essentials + Node for Jekyll
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
     locales \
     imagemagick \
@@ -13,30 +12,26 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/* && \
     pip install nbconvert --break-system-packages
 
-
-RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
-    locale-gen
-
-
-ENV LANG=en_US.UTF-8 \
-    LANGUAGE=en_US:en \
-    LC_ALL=en_US.UTF-8 \
-    JEKYLL_ENV=production
-
-RUN mkdir /srv/jekyll
-
-ADD Gemfile.lock /srv/jekyll
-ADD Gemfile /srv/jekyll
+# RUN apt-get update -qq && \
+#     apt-get install -y build-essential curl nodejs git imagemagick && \
+#     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /srv/jekyll
 
-# install jekyll and dependencies
-RUN gem install jekyll bundler
+# Ensure bundler matches your lockfile
+COPY Gemfile Gemfile.lock ./
+RUN gem install bundler -v "$(grep 'BUNDLED WITH' -A1 Gemfile.lock | tail -1)" && \
+    bundle install --jobs 4
 
-RUN bundle install --no-cache
-# && rm -rf /var/lib/gems/3.1.0/cache
-EXPOSE 8080
+# Copy the rest of your site
+COPY . .
 
-COPY bin/entry_point.sh /tmp/entry_point.sh
+# Add a non-root user (better ownership)
+RUN groupadd -g 1000 app && \
+    useradd -u 1000 -g app -m app && \
+    chown -R app:app /srv/jekyll
 
-CMD ["/tmp/entry_point.sh"]
+USER app
+EXPOSE 4000
+
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--livereload"]
