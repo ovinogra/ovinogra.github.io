@@ -1,3 +1,6 @@
+
+Forked from [al-folio](https://github.com/alshedivat/al-folio/tree/main) but intend to diverge a lot to prune  unnecessary bloat and remove dependency on pre-built docker images. 
+
 # al-folio
 
 <div align="center">

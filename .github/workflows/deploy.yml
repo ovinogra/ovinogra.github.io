@@ -15,14 +15,12 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
-      - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
+      # - "!.github/workflows/deploy-docker-tag.yml"
+      # - "!.github/workflows/deploy-image.yml"
+      # - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/prettier.yml"
-      - "!lighthouse_results/**"
+      # - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
       - "!FAQ.md"
@@ -42,14 +40,12 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
-      - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
+      # - "!.github/workflows/deploy-docker-tag.yml"
+      # - "!.github/workflows/deploy-image.yml"
+      # - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/prettier.yml"
-      - "!lighthouse_results/**"
+      # - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
       - "!FAQ.md"
@@ -81,7 +77,6 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-          pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
