@@ -1,3 +1,6 @@
 _site/
-.git/
-assets/
+.bundle/
+vendor/
+.jekyll-cache/
+.sass-cache/
+.DS_Store
