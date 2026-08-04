@@ -1,0 +1,17 @@
+title: Creative Portfolio
+description: My new creative portfolio
+
+markdown: kramdown
+
+# Includes & excludes
+include: ["_pages"]
+exclude:
+  - Dockerfile
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
+plugins: []
+
