@@ -1,0 +1,42 @@
+body {
+    font-family: system-ui, sans-serif;
+    color: #444;
+    background: #fff;
+}
+
+.page-content {
+    max-width: 900px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.navbar {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+
+.navbar-brand {
+    font-weight: 400;
+}
+
+.nav-link {
+    margin-left: .75rem;
+}
+
+.site-footer {
+    margin-top: 5rem;
+    padding: 2rem 0;
+    text-align: center;
+    color: #888;
+    font-size: .9rem;
+    border-top: 1px solid #ddd;
+}
+
+h1, h2, h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.7;
+}

@@ -3,6 +3,8 @@ description: My new creative portfolio
 
 markdown: kramdown
 
+collections: {}
+
 # Includes & excludes
 include: ["_pages"]
 exclude:
