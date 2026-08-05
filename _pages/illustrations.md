@@ -2,8 +2,13 @@
 layout: default
 title: illustrations
 permalink: /illustrations/
+full_width: true
 ---
 
-# Illustrations
+<div class="default-width">
+  <h1>Illustrations</h1>
+</div>
 
-Coming soon.
+<div class="illustrations-full">
+  Coming soon.
+</div>
