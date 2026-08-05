@@ -17,3 +17,15 @@ exclude:
 
 plugins: []
 
+navigation:
+  - title: Home
+    url: /
+
+  - title: Puzzles
+    url: /puzzles/
+
+  - title: Illustrations
+    url: /illustrations/
+
+  - title: Blog
+    url: /blog/

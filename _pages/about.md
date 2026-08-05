@@ -1,0 +1,11 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
+# About
+
+This page will introduce my creative work.
+
+Lorem ipsum...

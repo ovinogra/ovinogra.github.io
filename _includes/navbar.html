@@ -1,45 +1,17 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+<header class="site-header">
+  <div class="site-width">
+    <a class="site-title" href="/">Creative Portfolio</a>
 
-<div class="container">
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
 
-<a class="navbar-brand" href="/">
-Creative Portfolio
-</a>
-
-<button
-class="navbar-toggler"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#navbar">
-
-<span class="navbar-toggler-icon"></span>
-
-</button>
-
-<div class="collapse navbar-collapse" id="navbar">
-
-<ul class="navbar-nav ms-auto">
-
-<li class="nav-item">
-<a class="nav-link" href="/">Home</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="/puzzles/">Puzzles</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="/illustrations/">Illustrations</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="/blog/">Blog</a>
-</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</nav>
+    <nav class="site-nav">
+      <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
+      <a href="/puzzles/" {% if page.url == "/puzzles/" %}class="active"{% endif %}>Puzzles</a>
+      <a href="/illustrations/" {% if page.url == "/illustrations/" %}class="active"{% endif %}>Illustrations</a>
+      <a href="/blog/" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a>
+      {% include theme-toggle.html %}
+    </nav>
+  </div>
+</header>
