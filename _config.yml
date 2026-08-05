@@ -3,6 +3,8 @@ description: My new creative portfolio
 
 markdown: kramdown
 
+collections: {}
+
 # Includes & excludes
 include: ["_pages"]
 exclude:
@@ -15,3 +17,15 @@ exclude:
 
 plugins: []
 
+navigation:
+  - title: Home
+    url: /
+
+  - title: Puzzles
+    url: /puzzles/
+
+  - title: Illustrations
+    url: /illustrations/
+
+  - title: Blog
+    url: /blog/

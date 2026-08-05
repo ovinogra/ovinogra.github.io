@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
 # Hello, world!
@@ -8,3 +9,4 @@ title: Home
 If you can read this, Jekyll is working.
 
 🎉
+

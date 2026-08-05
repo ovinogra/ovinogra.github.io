@@ -1,0 +1,134 @@
+:root {
+  --bg: #fff;
+  --text: #444;
+  --heading: #222;
+  --link: #0076df;
+  --border: #e6e6e6;
+}
+
+[data-theme="dark"] {
+  --bg: #1e1f22;
+  --text: #d7d7d7;
+  --heading: #fff;
+  --link: #7eb8ff;
+  --border: #333;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  transition: background .25s,color .25s;
+}
+
+.site-width {
+  width: min(900px,calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.site-header .site-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+
+.site-title {
+  color: var(--heading);
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.site-nav a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-nav a.active,
+.site-nav a:hover {
+  color: var(--link);
+}
+
+.page {
+  width: min(900px,calc(100% - 2rem));
+  margin: 3rem auto;
+}
+
+h1,h2,h3,h4 {
+  color: var(--heading);
+  font-weight: 300;
+}
+
+h1 { margin-bottom: 2rem; }
+
+a {
+  color: var(--link);
+}
+
+.site-footer {
+  width: min(900px,calc(100% - 2rem));
+  margin: 5rem auto 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  color: #888;
+  font-size: .9rem;
+}
+
+.theme-toggle,
+.nav-toggle {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: currentColor;
+  margin: 5px 0;
+}
+
+.sun {
+  fill: none;
+  stroke: currentColor;
+}
+
+@media (max-width:768px) {
+  .nav-toggle { display:block; }
+  .site-nav {
+    display:none;
+    position:absolute;
+    top:68px;
+    left:0;
+    right:0;
+    background:var(--bg);
+    border-bottom:1px solid var(--border);
+    flex-direction:column;
+    padding:1rem;
+  }
+  .site-nav.open { display:flex; }
+}

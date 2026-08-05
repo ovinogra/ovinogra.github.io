@@ -1,17 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-
-    <title>{{ page.title }}</title>
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1">
-</head>
-
+{% include head.html %}
 <body>
-
-{{ content }}
-
+  {% include navbar.html %}
+  <main class="page">
+    {{ content }}
+  </main>
+  <!-- {% include footer.html %} -->
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>
