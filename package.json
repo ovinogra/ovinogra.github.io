@@ -1,0 +1,7 @@
+{
+  "name": "creative-portfolio",
+  "private": true,
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
