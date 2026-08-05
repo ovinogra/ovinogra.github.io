@@ -18,14 +18,14 @@ exclude:
 plugins: []
 
 navigation:
-  - title: Home
+  - title: about
     url: /
 
-  - title: Puzzles
+  - title: puzzles
     url: /puzzles/
 
-  - title: Illustrations
+  - title: illustrations
     url: /illustrations/
 
-  - title: Blog
+  - title: blog
     url: /blog/

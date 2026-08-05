@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Illustrations
+title: illustrations
 permalink: /illustrations/
 ---
 

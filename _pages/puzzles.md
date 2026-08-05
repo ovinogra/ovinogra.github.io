@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Puzzles
+title: puzzles
 permalink: /puzzles/
 ---
 
