@@ -2,100 +2,104 @@
 
 from __future__ import annotations
 
-import argparse
-import glob
-import sys
 from pathlib import Path
 
+import click
 from PIL import Image
-from PIL import PngImagePlugin
 
 
 METADATA_COMMENT = "Made my Moonrise"
-SUPPORTED_SUFFIXES = {".png"}
+RAW_DIR = Path("assets/img/illustrations_raw")
+OUTPUT_DIR = Path("assets/img/illustrations")
+SUPPORTED_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".tif", ".tiff"}
+JPEG_QUALITY = 88
 
 
-def optimize_png(path: Path) -> bool:
-    with Image.open(path) as image:
-        pnginfo = PngImagePlugin.PngInfo()
-        pnginfo.add_text("Comment", METADATA_COMMENT)
-        image.save(path, format="PNG", optimize=True, pnginfo=pnginfo)
+def _to_rgb(image: Image.Image) -> Image.Image:
+    if image.mode in {"RGBA", "LA"}:
+        background = Image.new("RGB", image.size, (255, 255, 255))
+        alpha = image.getchannel("A")
+        background.paste(image.convert("RGB"), mask=alpha)
+        return background
+    if image.mode == "P":
+        return image.convert("RGB")
+    if image.mode not in {"RGB", "L"}:
+        return image.convert("RGB")
+    if image.mode == "L":
+        return image.convert("RGB")
+    return image.copy()
+
+
+def export_as_jpeg(input_path: Path, output_path: Path, quality: int) -> bool:
+    with Image.open(input_path) as image:
+        prepared = _to_rgb(image)
+        prepared.save(
+            output_path,
+            format="JPEG",
+            optimize=True,
+            progressive=True,
+            quality=quality,
+            comment=METADATA_COMMENT.encode("utf-8"),
+        )
     return True
 
 
-def optimize_image(path: Path) -> bool:
-    suffix = path.suffix.lower()
-    if suffix == ".png":
-        return optimize_png(path)
-    return False
-
-
-def expand_inputs(inputs: list[str]) -> list[Path]:
-    results: list[Path] = []
-    seen: set[Path] = set()
-
-    for value in inputs:
-        has_glob = any(char in value for char in "*?[]")
-        candidates: list[Path] = []
-
-        if has_glob:
-            candidates = [Path(match) for match in glob.glob(value, recursive=True)]
-        else:
-            path = Path(value)
-            if path.is_dir():
-                candidates = list(path.rglob("*"))
-            else:
-                candidates = [path]
-
-        for candidate in candidates:
-            if not candidate.is_file():
-                continue
-            if candidate.suffix.lower() not in SUPPORTED_SUFFIXES:
-                continue
-            resolved = candidate.resolve()
-            if resolved in seen:
-                continue
-            seen.add(resolved)
-            results.append(candidate)
-
-    return results
-
-
-def parse_args(argv: list[str]) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(
-        description="Optimize PNG images with Pillow and inject Moonrise metadata."
+def collect_raw_images(raw_dir: Path) -> list[Path]:
+    return sorted(
+        path
+        for path in raw_dir.rglob("*")
+        if path.is_file() and path.suffix.lower() in SUPPORTED_SUFFIXES
     )
-    parser.add_argument(
-        "paths",
-        nargs="+",
-        help="Image files, directories, or glob patterns (e.g. assets/img/**).",
-    )
-    return parser.parse_args(argv)
 
 
-def main(argv: list[str]) -> int:
-    args = parse_args(argv)
-    files = expand_inputs(args.paths)
+def run(input_dir: Path, output_dir: Path, quality: int) -> int:
+
+    if not input_dir.exists() or not input_dir.is_dir():
+        raise click.ClickException(f"Input directory not found: {input_dir}")
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    files = collect_raw_images(input_dir)
 
     if not files:
-        print("No supported image files found.")
+        click.echo(f"No supported source images found in {input_dir}.")
         return 0
 
-    optimized_count = 0
-    skipped_count = 0
+    exported_count = 0
 
-    for path in files:
-        changed = optimize_image(path)
-        status = "optimized" if changed else "skipped"
-        print(f"{status}: {path}")
-        if changed:
-            optimized_count += 1
-        else:
-            skipped_count += 1
+    for source_path in files:
+        target_path = output_dir / f"{source_path.stem}.jpeg"
+        export_as_jpeg(source_path, target_path, quality)
+        exported_count += 1
+        click.echo(f"exported: {source_path} -> {target_path}")
 
-    print(f"Done. Optimized {optimized_count} file(s), skipped {skipped_count} file(s).")
+    click.echo(f"Done. Exported {exported_count} JPEG file(s).")
     return 0
 
 
+@click.option(
+    "--input-dir",
+    type=click.Path(path_type=Path, file_okay=False, dir_okay=True),
+    default=RAW_DIR,
+    show_default=True,
+    help="Input directory of source artwork.",
+)
+@click.option(
+    "--output-dir",
+    type=click.Path(path_type=Path, file_okay=False, dir_okay=True),
+    default=OUTPUT_DIR,
+    show_default=True,
+    help="Output directory for optimized JPEGs.",
+)
+@click.option(
+    "--quality",
+    type=click.IntRange(1, 100),
+    default=JPEG_QUALITY,
+    show_default=True,
+    help="JPEG quality.",
+)
+def main(input_dir: Path, output_dir: Path, quality: int) -> None:
+    raise SystemExit(run(input_dir, output_dir, quality))
+
+
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv[1:]))
+    main()
