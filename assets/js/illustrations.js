@@ -65,6 +65,7 @@ illustrationTiles.forEach((tile) => {
     if (!item) return;
     history.replaceState(null, "", `#${slug}`);
     showViewer(item);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   });
 });
 
