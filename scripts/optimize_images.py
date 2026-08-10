@@ -8,12 +8,11 @@ import click
 from PIL import Image
 
 
-METADATA_COMMENT = "Made my Moonrise"
 RAW_DIR = Path("assets/img/illustrations_raw")
 OUTPUT_DIR = Path("assets/img/illustrations")
 SUPPORTED_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".tif", ".tiff"}
 JPEG_QUALITY = 88
-
+METADATA_COMMENT = "MoonriseArt"
 
 def _to_rgb(image: Image.Image) -> Image.Image:
     if image.mode in {"RGBA", "LA"}:
@@ -76,6 +75,7 @@ def run(input_dir: Path, output_dir: Path, quality: int) -> int:
     return 0
 
 
+@click.command()
 @click.option(
     "--input-dir",
     type=click.Path(path_type=Path, file_okay=False, dir_okay=True),
