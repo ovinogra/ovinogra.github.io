@@ -193,10 +193,17 @@ a {
   align-items: center;
 }
 
-.viewer-close {
+.viewer-controls {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  align-items: flex-end;
+}
+
+.viewer-button {
   border: var(--text) 1px solid;
   background: rgba(255, 255, 255, 0);
   color: var(--text);
@@ -204,6 +211,12 @@ a {
   line-height: 1;
   padding: 0.35rem 0.75rem;
   cursor: pointer;
+  width: 2.5rem;
+}
+
+.viewer-button:hover,
+.viewer-button:focus-visible {
+  background: rgba(255, 255, 255, 0.45);
 }
 
 .viewer-image {

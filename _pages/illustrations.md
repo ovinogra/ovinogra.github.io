@@ -12,7 +12,11 @@ full_width: true
 <div class="full-width">
   <div class="art-viewer" hidden>
     <div class="viewer-panel">
-      <button class="viewer-close" type="button" aria-label="Close artwork">×</button>
+      <div class="viewer-controls">
+        <button class="viewer-button viewer-close" type="button" aria-label="Close artwork">×</button>
+        <button class="viewer-button viewer-prev" type="button" aria-label="Show previous artwork">‹</button>
+        <button class="viewer-button viewer-next" type="button" aria-label="Show next artwork">›</button>
+      </div>
       <img class="viewer-image" src="" alt="">
       <div class="viewer-meta">
         <h2 class="viewer-title"></h2>
