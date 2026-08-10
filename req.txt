@@ -1,0 +1,4 @@
+# Conda package list for local tooling.
+pre-commit>=4.6.0
+pillow>=12.3.0
+click>=8.2.1

@@ -11,3 +11,6 @@ assets/libs/
 node_modules/
 vendor
 .idea
+__pycache__/
+assets/img/illustrations_raw/*
+!assets/img/illustrations_raw/.gitkeep

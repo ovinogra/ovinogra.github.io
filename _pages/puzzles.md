@@ -10,14 +10,22 @@ permalink: /puzzles/
   <p>The gist is that a hunt-style puzzle is some information that does not come with instructions on what to do with it. That's up to you to figure out, but it will (usually) result in an answer which is an English word or phrase.</p>
   <p>Hunt puzzles can be <em>anything</em>: images, crosswords, logic, wordplay, videos, etc. I gravitate towards logic-y types, especially those dealing with some flavor of spatial reasoning.</p>
   <p>For completeness, I am including everything I am credited on writing, though the amount of my contribution varies. I put a ⭐ next to the favorite puzzles I've worked on. I've usually also been heavily involved in art or tech for most of these projects.</p>
+<hr />
 </div>
 
-<hr />
-
 <p></p>
+
 <div class="default-width">
   <div class="hunt-title-row">
-    <img src="/assets/img/puzzles/penchant.png" alt="Penchant puzzlehunt logo" height="40" />
+    <img src="/assets/img/puzzles/paradox2.png" alt="Paradox puzzlehunt 2 logo" height="80" />
+    <a href="https://paradoxpuzzlehunt.com/"><strong>Paradox Puzzlehunt 2026</strong></a>
+  </div>
+  <p>A short (in number of puzzles) but challenging puzzlehunt. For the first time in a hunt I contributed only art, owning the home page and <a href="https://paradoxpuzzlehunt.com/puzzles">puzzle map</a></p>
+</div>
+
+<div class="default-width">
+  <div class="hunt-title-row">
+    <img src="/assets/img/puzzles/penchant.png" alt="Penchant puzzlehunt logo" height="50" />
     <a href="https://penchantpuzzlehunt.com/"><strong>Penchant Puzzlehunt 2025</strong></a>
   </div>
   <p>A small, single round hunt. I joined the writing team on the later end to contribute a single puzzle, but then also helped with tech support and web design (with Thomas, using <a href="https://github.com/metaterminal/penchant-puzzlehunt">bph-site</a>). </p>
@@ -31,7 +39,7 @@ permalink: /puzzles/
     <img src="/assets/img/puzzles/teammate2.png" alt="Teammate Hunt logo" height="80" />
     <a href="https://2025.teammatehunt.com/"><strong>Teammate Hunt 2025: Matt & Emma's Deep-Space Disaster</strong></a>
   </div>
-  <p>A long hunt themed around a <a href="https://2025.teammatehunt.com/comic">choose-your-own-adventure presented as a comic book</a>, and to date, one of the most ambitious hunt projects I've been heavily involved. I did a lot of art for the comic and various puzzle assets, along with Tracey, Jasmine, and Jacqui. Will I ever get around to compiling the comic book as a standalone pdf? Who knows. </p>
+  <p>A long, ambitiously scoped, hunt themed around a <a href="https://2025.teammatehunt.com/comic">choose-your-own-adventure presented as a comic book</a>. I did a lot of art for the comic and various puzzle assets, along with Tracey, Jasmine, Jacqui, and others. Will I ever get around to compiling the comic book as a standalone pdf? Who knows. </p>
   <ul>
     <li><a href="https://2025.teammatehunt.com/">Playtime with Bootes</a>: a hidden puzzle...</li>
     <li>⭐ <a href="https://2025.teammatehunt.com/puzzles/starship-battle">Starship Battle</a>: intro star battle</li>
@@ -70,7 +78,7 @@ permalink: /puzzles/
     <img src="/assets/img/puzzles/mh23.png" alt="MIT Mystery Hunt logo" height="80" />
     <a href="https://puzzles.mit.edu/2023/"><strong>MIT Mystery Hunt 2023: Puzzle Factory</strong></a>
   </div>
-  <p>One of the largest puzzle competitions held annually in Boston on MIT campus, this year hosted by teammate. I was on the creative team, designing the eponymous <a href="https://puzzles.mit.edu/2023/puzzlefactory.place">puzzle</a> <a href="https://puzzles.mit.edu/2023/puzzlefactory.place/factory">factory</a> itself and the <a href="https://puzzles.mit.edu/2023/puzzlefactory.place/factory-floor/">factory floor</a> and <a href="https://puzzles.mit.edu/2023/puzzlefactory.place/office/">office</a> rounds.  </p>
+  <p>One of the largest puzzle competitions held annually in Boston on MIT campus, this year hosted by teammate. I was on the creative team, designing the <a href="https://puzzles.mit.edu/2023/puzzlefactory.place">puzzle</a> <a href="https://puzzles.mit.edu/2023/puzzlefactory.place/factory">factory</a> and the <a href="https://puzzles.mit.edu/2023/puzzlefactory.place/factory-floor/">factory floor</a> and <a href="https://puzzles.mit.edu/2023/puzzlefactory.place/office/">office</a> rounds. The factory floor round art was some of the most puzzle-constrained work I have done to date. </p>
   <ul>
     <li>⭐ <a href="https://puzzles.mit.edu/2023/interestingthings.museum/puzzles/bridge-building/">Bridge Building</a>: grid logic</li>
     <li><a href="https://puzzles.mit.edu/2023/interestingthings.museum/puzzles/formula-deluxe/">Formula Deluxe</a>: Math + mario kart</li>
@@ -94,7 +102,7 @@ permalink: /puzzles/
     <img src="/assets/img/puzzles/teammate1.png" alt="Teammate Hunt logo" height="80" />
     <a href="https://2021.teammatehunt.com/"><strong>Teammate Hunt 2021: Matt & Emma's Carnival Conundrum</strong></a>
   </div>
-  <p>A longer, challenging, hunt themed around the next of Matt & Emma's (teammates' mascots) misadventures. This hunt held a series of personal firsts for me in trying my hand at publishable raster art (some puzzle icons) and at writing more difficult puzzles.</p>
+  <p>A longer, challenging, hunt themed around the next of Matt & Emma's (mascots of teammate) adventures. This hunt held a series of personal firsts for me in contributing raster art (some puzzle icons) and in trying to write more difficult puzzles.</p>
   <ul>
     <li>⭐ <a href="https://2021.teammatehunt.com/puzzles/symbolic-table">Symbolic Table</a>: crossword without clues, arguably</li>
     <li><a href="https://2021.teammatehunt.com/puzzles/the-mystical-plaza">The Mystical Plaza</a>: meta, semantics</li>
@@ -120,7 +128,7 @@ permalink: /puzzles/
   <div class="hunt-title-row">
     <a href="https://www.17thshard.com/forums/topic/95860-shardhunt-a-fantasy-themed-puzzlehunt-wrapup"><strong>Shardhunt 2021</strong></a>
   </div>
-  <p>A small hunt released on forums + discord. Pretty early, exploratory, puzzle writing work on my part.</p>
+  <p>A small hunt released on forums + discord to a small group of friends of friends. Fairly early, exploratory, and easy puzzle writing work on my part.</p>
   <ul>
     <li><a href="https://drive.google.com/file/d/1M7TD3LHJNZqm2wt1fG0v62egwBHHPG4Z/view?usp=sharing">Pathfinding</a>: word search</li>
     <li><a href="https://drive.google.com/file/d/1sFlh0LOnf2Rmfbd6CcnBtXcbV61vPKY_/view?usp=sharing">Connections</a>: logic</li>
@@ -134,10 +142,10 @@ permalink: /puzzles/
     <img src="/assets/img/puzzles/cmu1.png" alt="CMU Puzzlehunt logo" height="80" />
     <a href="https://puzzlehunt.club.cc.cmu.edu/hunt/15/view/"><strong>CMU Puzzlehunt Fall 2020: Oregon Trail Hunt</strong></a>
   </div>
-  <p>My 2020 internship plans got shattered by covid, so I had to promote one of my virtual hobbies and ended up joining <a href="https://puzzlehunt.club.cc.cmu.edu/">Puzzlehunt CMU</a>. Helped in pushing the club to adopt html-based hunt presentation (previously on pdfs). This was my first foray into web design and graphics... had to start somewhere.</p>
+  <p>My 2020 internship plans got shattered by covid, so I had to promote one of my virtual hobbies to center stage and ended up joining <a href="https://puzzlehunt.club.cc.cmu.edu/">Puzzlehunt CMU</a>. Helped in pushing the club to adopt html-based hunt presentation (previously on pdfs), which I am happy to see is still the norm. This was also my first foray into web design and graphics... had to start somewhere.</p>
   <ul>
     <li>⭐ <a href="https://puzzlehunt.club.cc.cmu.edu/puzzle/15026/view/">Directions</a>: grid logic variant</li>
     <li><a href="https://puzzlehunt.club.cc.cmu.edu/puzzle/15012/view/">YOU HAVE DIED OF DYSENTERY</a>: semantics</li>
-    <li><a href="https://puzzlehunt.club.cc.cmu.edu/puzzle/15030/view/">Dividing the Land</a>: meta, logic</li>
+    <li><a href="https://puzzlehunt.club.cc.cmu.edu/puzzle/15030/view/">Dividing the Land</a>: meta, logicy</li>
   </ul>
 </div>

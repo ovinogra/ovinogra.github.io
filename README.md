@@ -23,6 +23,20 @@ From the repository root:
 
 The local container uses the project’s Dockerfile and docker-compose.yml to build and serve the Jekyll site.
 
+### Helper scripts
+
+Use the Conda environment for local helper scripts such as pre-commit and image optimization.
+
+```bash
+conda create -n moonenv python=3.11
+conda activate moonenv
+pip install -r req.txt
+```
+
+- `python scripts/optimize_images.py`: convert png images into jpegs
+  - `python scripts/optimize_images.py --input-dir assets/img/illustrations_raw --output-dir assets/img/illustrations --quality 88`
+- todo: thumbnail script
+
 ### Deploying to GitHub Pages
 
 To stand up deployment in a fresh copy of this repo:
