@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+# title: about
 permalink: /
 ---
 
@@ -9,4 +9,3 @@ permalink: /
 If you can read this, Jekyll is working.
 
 🎉
-

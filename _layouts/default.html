@@ -1,12 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-{% include head.html %}
-<body>
-  {% include navbar.html %}
-  <main class="page">
-    {{ content }}
-  </main>
-  <!-- {% include footer.html %} -->
-  <script src="/assets/js/main.js"></script>
-</body>
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+    <main class="page {% if page.full_width %}full-width{% else %}default-width{% endif %}">{{ content }}</main>
+    <!-- {% include footer.html %} -->
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>

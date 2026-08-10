@@ -9,19 +9,14 @@ This repo is intended to be used with Docker for local development and GitHub Ac
 From the repository root:
 
 1. Run the first-time setup:
-
    ```bash
    docker compose up --build
    ```
-
 2. Subsequent runs:
-
    ```bash
    docker compose up
    ```
-
 3. Open the site at:
-
    ```text
    http://localhost:8080
    ```

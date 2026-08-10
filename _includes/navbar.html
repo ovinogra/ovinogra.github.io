@@ -1,16 +1,16 @@
 <header class="site-header">
   <div class="site-width">
-    <a class="site-title" href="/">Creative Portfolio</a>
+    <a class="site-title" href="/">Moonrise Art</a>
+    <!-- <a class="site-title" href="/">Olga Vinogradova</a> -->
 
-    <button class="nav-toggle" aria-label="Toggle navigation">
-      <span></span><span></span><span></span>
-    </button>
+    <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
 
+    <!-- prettier-ignore -->
     <nav class="site-nav">
-      <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
-      <a href="/puzzles/" {% if page.url == "/puzzles/" %}class="active"{% endif %}>Puzzles</a>
-      <a href="/illustrations/" {% if page.url == "/illustrations/" %}class="active"{% endif %}>Illustrations</a>
-      <a href="/blog/" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a>
+      <a href="/" {% if page.url == "/" %}class="active" {% endif %}>about</a>
+      <a href="/puzzles/" {% if page.url == "/puzzles/" %}class="active" {% endif %}>puzzles</a>
+      <a href="/illustrations/" {% if page.url == "/illustrations/" %}class="active" {% endif %}>illustrations</a>
+      <a href="/blog/" {% if page.url == "/blog/" %}class="active" {% endif %}>blog</a>
       {% include theme-toggle.html %}
     </nav>
   </div>
