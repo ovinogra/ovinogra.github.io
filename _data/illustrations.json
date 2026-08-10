@@ -1,19 +1,55 @@
 [
   {
-    "slug": "drytree2",
-    "title": "Dream Tree",
-    "image": "/assets/img/illustrations/drytree2.jpeg",
-    "thumbnail": "/assets/img/illustrations/drytree2.jpeg",
-    "year": 2026,
-    "type": "single",
-    "series": null
-  },
-  {
     "slug": "tothemoon",
     "title": "To the Moon",
     "image": "/assets/img/illustrations/tothemoon.jpeg",
     "thumbnail": "/assets/img/illustrations/tothemoon.jpeg",
-    "year": 2026,
+    "year": 2025,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "city-walkway",
+    "title": "City Walkway",
+    "image": "/assets/img/illustrations/citywalkway.jpeg",
+    "thumbnail": "/assets/img/illustrations/citywalkway.jpeg",
+    "year": 2024,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "clouds-at-sea",
+    "title": "Clouds at Sea",
+    "image": "/assets/img/illustrations/cloudsatsea.jpeg",
+    "thumbnail": "/assets/img/illustrations/cloudsatsea.jpeg",
+    "year": 2024,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "firebird",
+    "title": "Firebird",
+    "image": "/assets/img/illustrations/firebird.jpeg",
+    "thumbnail": "/assets/img/illustrations/firebird.jpeg",
+    "year": 2024,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "night-tree",
+    "title": "Night Tree",
+    "image": "/assets/img/illustrations/nighttree.jpeg",
+    "thumbnail": "/assets/img/illustrations/nighttree.jpeg",
+    "year": 2024,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "waterforest",
+    "title": "Waterforest",
+    "image": "/assets/img/illustrations/waterforest.jpeg",
+    "thumbnail": "/assets/img/illustrations/waterforest.jpeg",
+    "year": 2024,
     "type": "single",
     "series": null
   },
@@ -22,61 +58,169 @@
     "title": "Sunflower",
     "image": "/assets/img/illustrations/sunflower.jpeg",
     "thumbnail": "/assets/img/illustrations/sunflower.jpeg",
-    "year": 2026,
+    "year": 2024,
     "type": "single",
     "series": null
   },
   {
-    "slug": "sunflower",
-    "title": "Sunflower",
-    "image": "/assets/img/illustrations/sunflower.jpeg",
-    "thumbnail": "/assets/img/illustrations/sunflower.jpeg",
-    "year": 2026,
+    "slug": "drytree2",
+    "title": "Dream Tree",
+    "image": "/assets/img/illustrations/drytree2.jpeg",
+    "thumbnail": "/assets/img/illustrations/drytree2.jpeg",
+    "year": 2024,
     "type": "single",
     "series": null
   },
   {
-    "slug": "sunflower",
-    "title": "Sunflower",
-    "image": "/assets/img/illustrations/sunflower.jpeg",
-    "thumbnail": "/assets/img/illustrations/sunflower.jpeg",
-    "year": 2026,
+    "slug": "goldfish",
+    "title": "Goldfish",
+    "image": "/assets/img/illustrations/fish.jpeg",
+    "thumbnail": "/assets/img/illustrations/fish.jpeg",
+    "year": 2023,
     "type": "single",
     "series": null
   },
   {
-    "slug": "sunflower",
-    "title": "Sunflower",
-    "image": "/assets/img/illustrations/sunflower.jpeg",
-    "thumbnail": "/assets/img/illustrations/sunflower.jpeg",
-    "year": 2026,
+    "slug": "hungry-cat",
+    "title": "Hungry Cat",
+    "image": "/assets/img/illustrations/hypnosiscat.jpeg",
+    "thumbnail": "/assets/img/illustrations/hypnosiscat.jpeg",
+    "year": 2023,
     "type": "single",
     "series": null
   },
   {
-    "slug": "sunflower",
-    "title": "Sunflower",
-    "image": "/assets/img/illustrations/sunflower.jpeg",
-    "thumbnail": "/assets/img/illustrations/sunflower.jpeg",
-    "year": 2026,
+    "slug": "librarian-cat",
+    "title": "Librarian's Cat",
+    "image": "/assets/img/illustrations/librariancat.jpeg",
+    "thumbnail": "/assets/img/illustrations/librariancat.jpeg",
+    "year": 2023,
     "type": "single",
     "series": null
   },
   {
-    "slug": "sunflower",
-    "title": "Sunflower",
-    "image": "/assets/img/illustrations/sunflower.jpeg",
-    "thumbnail": "/assets/img/illustrations/sunflower.jpeg",
-    "year": 2026,
+    "slug": "mountain-sketch",
+    "title": "Mountain Sketch",
+    "image": "/assets/img/illustrations/mountain.jpeg",
+    "thumbnail": "/assets/img/illustrations/mountain.jpeg",
+    "year": 2023,
     "type": "single",
     "series": null
   },
   {
-    "slug": "sunflower",
-    "title": "Sunflower",
-    "image": "/assets/img/illustrations/sunflower.jpeg",
-    "thumbnail": "/assets/img/illustrations/sunflower.jpeg",
-    "year": 2026,
+    "slug": "spensa",
+    "title": "Spensa's Return",
+    "image": "/assets/img/illustrations/lightburst.jpeg",
+    "thumbnail": "/assets/img/illustrations/lightburst.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "mishim-tsa",
+    "title": "Mishim and Tsa",
+    "image": "/assets/img/illustrations/mishim_tsa_story2.jpeg",
+    "thumbnail": "/assets/img/illustrations/mishim_tsa_story2.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "railroad-evening",
+    "title": "Railroad Evening",
+    "image": "/assets/img/illustrations/railtrees_evening.jpeg",
+    "thumbnail": "/assets/img/illustrations/railtrees_evening.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "railroad-day",
+    "title": "Railroad Day",
+    "image": "/assets/img/illustrations/railtrees_day.jpeg",
+    "thumbnail": "/assets/img/illustrations/railtrees_day.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "cat-sketches",
+    "title": "Cat Sketches",
+    "image": "/assets/img/illustrations/sketches_2.jpeg",
+    "thumbnail": "/assets/img/illustrations/sketches_2.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "city-cat",
+    "title": "City Cat",
+    "image": "/assets/img/illustrations/citycat2.jpeg",
+    "thumbnail": "/assets/img/illustrations/citycat2.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "desert",
+    "title": "Desert",
+    "image": "/assets/img/illustrations/desert.jpeg",
+    "thumbnail": "/assets/img/illustrations/desert.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "sword-landscape",
+    "title": "Quick sword sketch",
+    "image": "/assets/img/illustrations/sword_landscape.jpeg",
+    "thumbnail": "/assets/img/illustrations/sword_landscape.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "telescope-long",
+    "title": "Telescope",
+    "image": "/assets/img/illustrations/telescope2.jpeg",
+    "thumbnail": "/assets/img/illustrations/telescope2.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "to-the-ocean",
+    "title": "To the Ocean",
+    "image": "/assets/img/illustrations/totheocean.jpeg",
+    "thumbnail": "/assets/img/illustrations/totheocean.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "tunnel",
+    "title": "Tunnel Sketch",
+    "image": "/assets/img/illustrations/tunnel.jpeg",
+    "thumbnail": "/assets/img/illustrations/tunnel.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "wave",
+    "title": "Wave",
+    "image": "/assets/img/illustrations/wave.jpeg",
+    "thumbnail": "/assets/img/illustrations/wave.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "planets",
+    "title": "Planet Destroyer",
+    "image": "/assets/img/illustrations/planets.jpeg",
+    "thumbnail": "/assets/img/illustrations/planets.jpeg",
+    "year": 2023,
     "type": "single",
     "series": null
   }
