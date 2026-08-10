@@ -33,7 +33,10 @@ conda activate moonenv
 pre-commit install
 ```
 
-- `scripts/optimize-images.py`:
+- `python scripts/optimize_images.py assets/img/**`
+- `python scripts/optimize_images.py assets/img`
+- `python scripts/optimize_images.py assets/img/illustrations/drytree2.png`
+
 - todo: thumbnail script
 
 ### Deploying to GitHub Pages

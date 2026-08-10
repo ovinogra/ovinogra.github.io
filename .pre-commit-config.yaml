@@ -11,13 +11,6 @@ repos:
 
   - repo: local
     hooks:
-      - id: optimize-images
-        name: optimize images
-        entry: python scripts/optimize-images.py
-        language: system
-        pass_filenames: true
-        files: ^assets/img/.+\.(png|jpe?g)$
-
       - id: prettier
         name: prettier
         entry: npx prettier --write
