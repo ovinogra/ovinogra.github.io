@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "drytree2",
+    "title": "Dream Tree",
+    "image": "/assets/img/illustrations/drytree2.png",
+    "thumbnail": "/assets/img/illustrations/thumbnails/drytree2.png",
+    "year": 2026,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "tothemoon",
+    "title": "To the Moon",
+    "image": "/assets/img/illustrations/tothemoon.png",
+    "thumbnail": "/assets/img/illustrations/thumbnails/tothemoon.png",
+    "year": 2026,
+    "type": "single",
+    "series": null
+  }
+]
