@@ -7,7 +7,6 @@ full_width: true
 
 <div class="default-width">
   <h1>Illustrations</h1>
-  <p class="intro-copy">A prototype gallery built from metadata. Click a tile to open the artwork in the viewer.</p>
 </div>
 
 <div class="full-width">
@@ -17,7 +16,7 @@ full_width: true
       <img class="viewer-image" src="" alt="">
       <div class="viewer-meta">
         <h2 class="viewer-title"></h2>
-        <p class="viewer-caption">Click another tile or close to return to the grid.</p>
+        <!-- <p class="viewer-caption">Click another tile or close to return to the grid.</p> -->
       </div>
     </div>
   </div>

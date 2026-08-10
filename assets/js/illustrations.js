@@ -1,4 +1,4 @@
-const illustrationTiles = document.querySelectorAll(".art-tile");
+const illustrationTiles = document.querySelectorAll(".illustrations-tile");
 const viewer = document.querySelector(".art-viewer");
 const viewerImage = document.querySelector(".viewer-image");
 const viewerTitle = document.querySelector(".viewer-title");
