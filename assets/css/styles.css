@@ -35,12 +35,6 @@ body {
     color 0.25s;
 }
 
-.hr {
-  /* display: block;
-  content: ""; */
-  margin-bottom: 1rem;
-}
-
 .site-width {
   width: min(100%, calc(100% - 2rem));
   margin: 0 auto;
@@ -48,7 +42,7 @@ body {
 
 .default-width {
   display: block;
-  width: min(700px, calc(100% - 2rem));
+  width: min(900px, calc(100% - 2rem));
   margin: 0 auto;
 }
 
@@ -114,7 +108,8 @@ body {
 }
 
 .page.default-width {
-  width: min(700px, calc(100% - 2rem));
+  /* width: min(700px, calc(100% - 2rem)); */
+  width: calc(100% - 2rem);
 }
 
 .page.full-width {
