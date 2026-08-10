@@ -1,6 +1,6 @@
 [
   {
-    "slug": "tothemoon",
+    "slug": "to-the-moon",
     "title": "To the Moon",
     "image": "/assets/img/illustrations/tothemoon.jpeg",
     "thumbnail": "/assets/img/illustrations/tothemoon.jpeg",
@@ -125,16 +125,6 @@
     "type": "single",
     "series": null
   },
-
-  {
-    "slug": "mishim-tsa",
-    "title": "Mishim and Tsa",
-    "image": "/assets/img/illustrations/mishim_tsa_story2.jpeg",
-    "thumbnail": "/assets/img/illustrations/mishim_tsa_story2.jpeg",
-    "year": 2023,
-    "type": "single",
-    "series": null
-  },
   {
     "slug": "railroad-evening",
     "title": "Railroad Evening",
@@ -158,6 +148,24 @@
     "title": "Cat Sketches",
     "image": "/assets/img/illustrations/sketches_2.jpeg",
     "thumbnail": "/assets/img/illustrations/sketches_2.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "city-cat",
+    "title": "City Cat",
+    "image": "/assets/img/illustrations/citycat2.jpeg",
+    "thumbnail": "/assets/img/illustrations/citycat2.jpeg",
+    "year": 2023,
+    "type": "single",
+    "series": null
+  },
+  {
+    "slug": "desert",
+    "title": "Desert",
+    "image": "/assets/img/illustrations/desert.jpeg",
+    "thumbnail": "/assets/img/illustrations/desert.jpeg",
     "year": 2023,
     "type": "single",
     "series": null
