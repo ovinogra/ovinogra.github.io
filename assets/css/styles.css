@@ -356,7 +356,7 @@ a {
 .publications-list .bibliography li {
   margin: 0 0 1.1rem;
   padding-bottom: 1.25rem;
-  border-bottom: 1px solid var(--border);
+  /* border-bottom: 1px solid var(--border); */
 }
 
 .publications-list .bibliography li > .publication-item {
@@ -368,19 +368,20 @@ a {
 .publication-image {
   width: 200px;
   min-width: 200px;
-  height: 100px;
+  height: 130px;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 2px solid #ff0000; */
 }
 
 .publication-image img {
   display: block;
   max-width: 200px;
-  max-height: 100px;
+  max-height: 130px;
   width: auto;
   height: auto;
-  border: 1px solid var(--border);
+  /* border: 1px solid var(--border); */
 }
 
 .publication-text {

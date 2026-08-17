@@ -7,10 +7,10 @@
           src="{{ entry.preview | prepend: '/assets/img/publications/' | relative_url }}"
           alt="Preview image for {{ entry.title }}"
           loading="lazy"
-          onerror="this.onerror=null;this.src='{{ '/assets/img/publications/paradox2.png' | relative_url }}';"
+          onerror="this.onerror=null;this.src='{{ '/assets/img/publications/generic_logo.png' | relative_url }}';"
       >
     {% else %}
-      <img src="{{ '/assets/img/publications/paradox2.png' | relative_url }}" alt="Placeholder image for {{ entry.title }}" loading="lazy">
+      <img src="{{ '/assets/img/publications/generic_logo.png' | relative_url }}" alt="Placeholder image for {{ entry.title }}" loading="lazy">
     {% endif %}
   </div>
 
