@@ -15,7 +15,18 @@ exclude:
   - LICENSE
   - README.md
 
-plugins: []
+plugins:
+  - jekyll/scholar
+
+scholar:
+  style: apa
+  locale: en
+  source: ./_data
+  bibliography: publications.bib
+  bibliography_template: publication_entry
+  query: "@*"
+  sort_by: year
+  order: descending
 
 navigation:
   - title: about
