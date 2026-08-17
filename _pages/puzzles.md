@@ -20,7 +20,7 @@ permalink: /puzzles/
     <img src="/assets/img/puzzles/paradox2.png" alt="Paradox puzzlehunt 2 logo" height="80" />
     <a href="https://paradoxpuzzlehunt.com/"><strong>Paradox Puzzlehunt 2026</strong></a>
   </div>
-  <p>A short (in number of puzzles) but challenging puzzlehunt. For the first time in a hunt I contributed only art, owning the home page and <a href="https://paradoxpuzzlehunt.com/puzzles">puzzle map</a></p>
+  <p>A short (in number of puzzles) but challenging puzzlehunt. I contributed just art assets, owning the home page and <a href="https://paradoxpuzzlehunt.com/puzzles">puzzle map</a></p>
 </div>
 
 <div class="default-width">

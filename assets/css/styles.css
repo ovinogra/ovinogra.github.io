@@ -339,3 +339,63 @@ a {
     display: flex;
   }
 }
+
+/* research page */
+
+.publications-list .bibliography {
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+}
+
+.publications-list ol.bibliography {
+  list-style-type: disc;
+}
+
+.publications-list .bibliography li {
+  margin: 0 0 1.1rem;
+  padding-bottom: 1.25rem;
+  /* border-bottom: 1px solid var(--border); */
+}
+
+.publications-list .bibliography li > .publication-item {
+  display: flex;
+  gap: 0.85rem;
+  align-items: start;
+}
+
+.publication-image {
+  width: 200px;
+  min-width: 200px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.publication-image.publication-image-real {
+  padding: 10px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.publication-image img {
+  display: block;
+  max-width: 200px;
+  max-height: 130px;
+  width: auto;
+  height: auto;
+}
+
+.publication-text {
+  min-width: 0;
+}
+
+.publication-text p {
+  margin: 0.2rem 0 0;
+}
+
+.publication-text p:first-child {
+  margin-top: 0;
+}
