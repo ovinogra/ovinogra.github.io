@@ -1,7 +1,8 @@
 ---
 layout: default
 title: about
-permalink: /about/
+# permalink: /about/
+permalink: /
 ---
 
 <div class="default-width">

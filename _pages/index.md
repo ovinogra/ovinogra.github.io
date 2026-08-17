@@ -1,10 +1,9 @@
 ---
 layout: default
-# title: about
-permalink: /
+title: landing
+# permalink: /
 ---
 
 <div class="default-width">
   todo
-
 </div>
