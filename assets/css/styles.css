@@ -343,10 +343,10 @@ a {
 /* research page */
 
 .publications-list .bibliography {
-  list-style-type: disc;
+  list-style-type: none;
   list-style-position: outside;
   margin: 0;
-  padding-left: 1.35rem;
+  padding: 0;
 }
 
 .publications-list ol.bibliography {
@@ -360,62 +360,37 @@ a {
 }
 
 .publications-list .bibliography li > .publication-item {
-  display: grid;
-  grid-template-columns: 100px minmax(0, 1fr);
-  column-gap: 0.85rem;
+  display: flex;
+  gap: 0.85rem;
   align-items: start;
 }
 
-.publication-preview {
-  width: 100px;
-  min-width: 100px;
+.publication-image {
+  width: 200px;
+  min-width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.publication-preview img {
-  width: 100px;
-  height: 100px;
+.publication-image img {
   display: block;
+  max-width: 200px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
   border: 1px solid var(--border);
 }
 
-.publication-preview img {
-  object-fit: cover;
-}
-
-.publication-authors {
-  white-space: normal;
-  overflow-wrap: break-word;
-  line-height: 1.45;
-}
-
-.publication-title {
-  margin-top: 0.2rem;
-  line-height: 1.45;
-}
-
-.publication-journal {
-  margin-top: 0.2rem;
-  line-height: 1.45;
-}
-
-.publication-content {
+.publication-text {
   min-width: 0;
 }
 
-.publication-venue {
-  font-style: italic;
+.publication-text p {
+  margin: 0.2rem 0 0;
 }
 
-@media (max-width: 720px) {
-  .publications-list .bibliography li > .publication-item {
-    grid-template-columns: 100px minmax(0, 1fr);
-    column-gap: 0.65rem;
-  }
-
-  .publication-preview,
-  .publication-preview img {
-    width: 100px;
-    min-width: 100px;
-    height: 100px;
-  }
+.publication-text p:first-child {
+  margin-top: 0;
 }

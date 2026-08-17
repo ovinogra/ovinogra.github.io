@@ -1,10 +1,11 @@
 ---
 ---
 <div class="publication-item">
-  <div class="publication-preview">
+  <div class="publication-image">
     {% if entry.preview %}
       <img
           src="{{ entry.preview | prepend: '/assets/img/publications/' | relative_url }}"
+          alt="Preview image for {{ entry.title }}"
           loading="lazy"
           onerror="this.onerror=null;this.src='{{ '/assets/img/publications/paradox2.png' | relative_url }}';"
       >
@@ -13,10 +14,10 @@
     {% endif %}
   </div>
 
-  <div class="publication-content">
-    <div class="publication-title">{{ entry.title }}</div>
+  <div class="publication-text">
+    <p>{{ entry.title }}</p>
 
-    <div class="publication-authors">
+    <p>
       {%- for author in entry.author_array -%}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
@@ -28,13 +29,13 @@
         {%- endif -%}
         {%- unless forloop.last -%}, {% endunless -%}
       {%- endfor -%}
-    </div>
+    </p>
 
-    <div class="publication-journal">
-      {%- if entry.journal -%}<span class="publication-venue">{{ entry.journal }}</span>{%- endif -%}
+    <p>
+      {%- if entry.journal -%}<em>{{ entry.journal }}</em>{%- endif -%}
       {%- if entry.journal and entry.year -%}, {% endif -%}
-      {%- if entry.year -%}<span class="publication-year">{{ entry.year }}</span>{%- endif -%}
+      {%- if entry.year -%}{{ entry.year }}{%- endif -%}
       {%- if entry.url -%}, <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">link</a>{%- endif -%}
-    </div>
+    </p>
   </div>
 </div>
