@@ -1,17 +1,18 @@
 <header class="site-header">
   <div class="site-width">
-    <a class="site-title" href="/">Moonrise Art</a>
+    <a class="site-title" href="/">Moonrise</a>
     <!-- <a class="site-title" href="/">Olga Vinogradova</a> -->
 
     <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
 
     <!-- prettier-ignore -->
     <nav class="site-nav">
-      <a href="/" {% if page.url == "/" %}class="active" {% endif %}>about</a>
-      <a href="/research/" {% if page.url == "/research/" %}class="active" {% endif %}>research</a>
+      <!-- <a href="/" {% if page.url == "/" %}class="active" {% endif %}>home</a> -->
+      <a href="/science/" {% if page.url == "/science/" %}class="active" {% endif %}>science</a>
       <a href="/puzzles/" {% if page.url == "/puzzles/" %}class="active" {% endif %}>puzzles</a>
       <a href="/illustrations/" {% if page.url == "/illustrations/" %}class="active" {% endif %}>illustrations</a>
       <a href="/blog/" {% if page.url == "/blog/" %}class="active" {% endif %}>blog</a>
+      <a href="/about/" {% if page.url == "/about/" %}class="active" {% endif %}>about</a>
       {% include theme-toggle.html %}
     </nav>
   </div>

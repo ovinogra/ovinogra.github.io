@@ -1,11 +1,10 @@
 ---
 layout: default
-title: research
-permalink: /research/
+title: science
+permalink: /science/
 ---
 
 <div class="default-width">
-  <!-- <h1>Research</h1> -->
   <h2>Topics and interests</h2>
   <div>
     <ul>

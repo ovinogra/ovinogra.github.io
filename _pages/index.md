@@ -4,8 +4,7 @@ layout: default
 permalink: /
 ---
 
-# Hello, world!
+<div class="default-width">
+  todo
 
-If you can read this, Jekyll is working.
-
-🎉
+</div>
