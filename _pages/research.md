@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 <div class="default-width">
-  <h1>Research</h1>
+  <!-- <h1>Research</h1> -->
   <h2>Topics and interests</h2>
   <div>
     <ul>
@@ -15,7 +15,7 @@ permalink: /research/
     </ul>
   </div>
   <h2>Publications</h2>
-  <p>Publication history is also on my <a href="https://scholar.google.com/citations?user=rWej_2AAAAAJ&amp;hl=en">Google Scholar</a> page.</p>
+  <p>Publication history is also on my <a href="https://scholar.google.com/citations?user=rWej_2AAAAAJ">Google Scholar</a> page.</p>
 
   <div class="publications-list">
     {% bibliography %}

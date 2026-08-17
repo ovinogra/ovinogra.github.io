@@ -3,21 +3,11 @@
 <div class="publication-item">
   <div class="publication-preview">
     {% if entry.preview %}
-      {% if entry.preview contains '://' %}
-        <img
-          src="{{ entry.preview }}"
-          alt="Preview image for {{ entry.title }}"
-          loading="lazy"
-          onerror="this.onerror=null;this.src='{{ '/assets/img/publications/paradox2.png' | relative_url }}';"
-        >
-      {% else %}
-        <img
+      <img
           src="{{ entry.preview | prepend: '/assets/img/publications/' | relative_url }}"
-          alt="Preview image for {{ entry.title }}"
           loading="lazy"
           onerror="this.onerror=null;this.src='{{ '/assets/img/publications/paradox2.png' | relative_url }}';"
-        >
-      {% endif %}
+      >
     {% else %}
       <img src="{{ '/assets/img/publications/paradox2.png' | relative_url }}" alt="Placeholder image for {{ entry.title }}" loading="lazy">
     {% endif %}
@@ -40,7 +30,7 @@
       {%- endfor -%}
     </div>
 
-    <div class="publication-meta">
+    <div class="publication-journal">
       {%- if entry.journal -%}<span class="publication-venue">{{ entry.journal }}</span>{%- endif -%}
       {%- if entry.journal and entry.year -%}, {% endif -%}
       {%- if entry.year -%}<span class="publication-year">{{ entry.year }}</span>{%- endif -%}
