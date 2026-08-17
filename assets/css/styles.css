@@ -103,6 +103,12 @@ body {
   margin: 0 auto;
 }
 
+.personal-icons {
+  display: block;
+  margin: 0 auto;
+  padding: 2rem 0 1rem;
+}
+
 .full-width {
   width: 100%;
   max-width: none;

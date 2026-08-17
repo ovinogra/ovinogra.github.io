@@ -1,11 +1,9 @@
 ---
 layout: default
-# title: about
-permalink: /
+title: landing
+# permalink: /
 ---
 
-# Hello, world!
-
-If you can read this, Jekyll is working.
-
-🎉
+<div class="default-width">
+  todo
+</div>

@@ -1,11 +1,21 @@
 ---
 layout: default
 title: about
-permalink: /about/
+# permalink: /about/
+permalink: /
 ---
 
-# About
+<div class="default-width">
+  <!-- <h1>About</h1> -->
+  <img class="personal-icons" src="/assets/img/personal_icons.png" height="80" />
+  <p>I’m Olga, a computational research scientist interested in catalysis and material science. I specialize in how data-driven methodologies impact the discovery, characterization, and engineering of new materials. I graduated with a PhD from <a href="https://www.cmu.edu/">Carnegie Mellon University</a> in Chemical Engineering, where I worked on improving hydrogen fuel cell catalysts through first-principles DFT simulation. I then continued as a postdoc at the <a href="https://www.fhi.mpg.de/th-department">Fritz Haber Instiute</a> of the Max Planck Society in Berlin, Germany doing much of the same. Currently I am based in Boston still working in science and tech. </p>
+  <p>I’m interested in how human interaction with practical datasets shapes the way we perceive and engage with the world. I’m especially curious to see how emerging ML/AI technologies can address engineering challenges, from energy storage to sustainable chemical production.</p>
+  <p>Outside of research, I enjoy solving and writing puzzlehunts as well as digital illustration. See the <a href="{{ '/puzzles/' | relative_url }}">puzzles</a> and <a href="{{ '/illustrations/' | relative_url }}">illustrations</a> pages for projects I’ve worked on.</p>
+  <p></p>
+  <h2>Site details</h2>
+  <p>This site is built with Jekyll and kept intentionally lightweight: content lives in Markdown, styles are customized in a small CSS layer, and a little JavaScript handles site-wide interactions like navigation and theme toggling.</p>
+  <p>I originally tried to take an existing portfolio template from github and gut out unneeded features, but then just ended up rewriting it from scratch.</p>
+  <h2>Contact</h2>
+  <span>ovinogra (a) alumni.cmu.edu</span> • <a href="https://www.linkedin.com/in/ovinogradova/">LinkedIn</a> • <a href="https://github.com/ovinogra">GitHub</a>
 
-This page will introduce my creative work.
-
-Lorem ipsum...
+</div>
