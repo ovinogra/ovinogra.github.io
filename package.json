@@ -2,7 +2,6 @@
   "name": "creative-portfolio",
   "private": true,
   "devDependencies": {
-    "@shopify/prettier-plugin-liquid": "1.4.0",
     "prettier": "^3.0.0"
   }
 }

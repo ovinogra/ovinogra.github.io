@@ -15,7 +15,7 @@ permalink: /research/
     </ul>
   </div>
   <h2>Publications</h2>
-  <p>Most up-to-date publication history is on my <a href="https://scholar.google.com/citations?user=rWej_2AAAAAJ&amp;hl=en">Google Scholar</a> page.</p>
+  <p>Publication history is also on my <a href="https://scholar.google.com/citations?user=rWej_2AAAAAJ&amp;hl=en">Google Scholar</a> page.</p>
 
   <div class="publications-list">
     {% bibliography %}

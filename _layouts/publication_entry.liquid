@@ -27,30 +27,24 @@
     <div class="publication-title">{{ entry.title }}</div>
 
     <div class="publication-authors">
-      {% for author in entry.author_array %}
-        {% assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' %}
-        {% assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}
-        {% capture author_name %}{{ author.first }} {{ author_last_html }}{% endcapture %}
-        {% if author_last_name == 'Vinogradova' %}
-          <strong>{{ author_name }}</strong>
-        {% else %}
-          {{ author_name }}
-        {% endif %}
-        {% unless forloop.last %}, {% endunless %}
-      {% endfor %}
+      {%- for author in entry.author_array -%}
+        {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+        {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {%- capture author_name -%}{{ author.first }} {{ author_last_html }}{%- endcapture -%}
+        {%- if author_last_name == 'Vinogradova' -%}
+          <strong>{{ author_name | strip }}</strong>
+        {%- else -%}
+          {{ author_name | strip }}
+        {%- endif -%}
+        {%- unless forloop.last -%}, {% endunless -%}
+      {%- endfor -%}
     </div>
 
     <div class="publication-meta">
-      {% if entry.journal -%}
-        <span class="publication-venue">{{ entry.journal }}</span>
-      {%- endif %}
-      {% if entry.journal and entry.year %}, {% endif %}
-      {% if entry.year -%}
-        <span class="publication-year">{{ entry.year }}</span>
-      {%- endif %}
-      {% if entry.url -%}
-        , <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">link</a>
-      {%- endif %}
+      {%- if entry.journal -%}<span class="publication-venue">{{ entry.journal }}</span>{%- endif -%}
+      {%- if entry.journal and entry.year -%}, {% endif -%}
+      {%- if entry.year -%}<span class="publication-year">{{ entry.year }}</span>{%- endif -%}
+      {%- if entry.url -%}, <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">link</a>{%- endif -%}
     </div>
   </div>
 </div>

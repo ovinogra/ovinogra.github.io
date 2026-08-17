@@ -16,4 +16,4 @@ repos:
         entry: npx prettier --write
         language: system
         pass_filenames: true
-        files: \.(md|markdown|html|liquid|yml|yaml|css|scss|js|jsx|ts|tsx|json)$
+        files: \.(md|markdown|html|yml|yaml|css|scss|js|jsx|ts|tsx|json)$
