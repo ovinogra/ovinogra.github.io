@@ -1,13 +1,13 @@
 ---
 ---
 <div class="publication-item">
-  <div class="publication-image">
+  <div class="publication-image{% if entry.preview %} publication-image-real{% endif %}">
     {% if entry.preview %}
       <img
-          src="{{ entry.preview | prepend: '/assets/img/publications/' | relative_url }}"
-          alt="Preview image for {{ entry.title }}"
-          loading="lazy"
-          onerror="this.onerror=null;this.src='{{ '/assets/img/publications/generic_logo.png' | relative_url }}';"
+        src="{{ entry.preview | prepend: '/assets/img/publications/' | relative_url }}"
+        alt="Preview image for {{ entry.title }}"
+        loading="lazy"
+        onerror="this.onerror=null;this.parentElement.classList.remove('publication-image-real');this.src='{{ '/assets/img/publications/generic_logo.png' | relative_url }}';"
       >
     {% else %}
       <img src="{{ '/assets/img/publications/generic_logo.png' | relative_url }}" alt="Placeholder image for {{ entry.title }}" loading="lazy">

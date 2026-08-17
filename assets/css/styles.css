@@ -372,7 +372,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 2px solid #ff0000; */
+}
+
+.publication-image.publication-image-real {
+  padding: 10px;
+  box-sizing: border-box;
+  background: #fff;
 }
 
 .publication-image img {
@@ -381,7 +386,6 @@ a {
   max-height: 130px;
   width: auto;
   height: auto;
-  /* border: 1px solid var(--border); */
 }
 
 .publication-text {
