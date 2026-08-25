@@ -12,9 +12,12 @@ permalink: /
   <p>I’m interested in how human interaction with practical datasets shapes the way we perceive and engage with the world. I’m especially curious to see how emerging ML/AI technologies can address engineering challenges, from energy storage to sustainable chemical production.</p>
   <p>Outside of research, I enjoy solving and writing puzzlehunts as well as digital illustration. See the <a href="{{ '/puzzles/' | relative_url }}">puzzles</a> and <a href="{{ '/illustrations/' | relative_url }}">illustrations</a> pages for projects I’ve worked on.</p>
   <p></p>
+
   <h2>Site details</h2>
-  <p>This site is built with Jekyll and kept intentionally lightweight: content lives in Markdown, styles are customized in a small CSS layer, and a little JavaScript handles site-wide interactions like navigation and theme toggling.</p>
-  <p>I originally tried to take an existing portfolio template from github and gut out unneeded features, but then just ended up rewriting it from scratch.</p>
+  <p>I originally tried to take an existing portfolio template from github and gut out unneeded features + add missing ones, but then just ended up rewriting it from scratch.</p>
+  <p>This site is built with Jekyll and kept intentionally lightweight and minimal.</p>
+  <p>Why "moonrise"? Something to do with many late nights of creative work in time to see the moon traverse the sky at various times.</p>
+
   <h2>Contact</h2>
   <span>ovinogra (a) alumni.cmu.edu</span> • <a href="https://www.linkedin.com/in/ovinogradova/">LinkedIn</a> • <a href="https://github.com/ovinogra">GitHub</a>
 
