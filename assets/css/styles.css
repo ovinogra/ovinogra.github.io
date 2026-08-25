@@ -227,13 +227,12 @@ a {
 
 .viewer-button:hover,
 .viewer-button:focus-visible {
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(171, 170, 170, 0.45);
 }
 
 .viewer-image {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   order: 1;
   width: 100%;
   max-width: 1000px;
@@ -244,6 +243,13 @@ a {
   display: block;
   width: 100%;
   object-fit: contain;
+}
+
+.viewer-image-caption {
+  margin-top: 0rem;
+  text-align: center;
+  color: var(--text);
+  font-style: italic;
 }
 
 .viewer-meta {

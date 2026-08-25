@@ -1,12 +1,31 @@
 [
   {
-    "slug": "paradox_2",
+    "slug": "paradox26",
     "title": "Paradox Puzzlehunt 2026",
     "thumbnail": "/assets/img/illustrations/paradox2_map.jpeg",
     "year": 2026,
     "type": "project",
-    "description": "Some of the assets created for the Paradox Puzzlehunt 2026, including icons, and other visual elements for interactivity. https://paradoxpuzzlehunt.com/",
-    "images": ["/assets/img/illustrations/paradox2_map.jpeg", "/assets/img/illustrations/paradox2_landing.jpeg"]
+    "description": "Some of the assets created for Paradox Puzzlehunt 2026, including icons, and other visual elements for interactivity. https://paradoxpuzzlehunt.com/",
+    "images": [
+      { "src": "/assets/img/illustrations/paradox2_map.jpeg", "description": " " },
+      { "src": "/assets/img/illustrations/paradox2_landing.jpeg", "description": " " }
+    ]
+  },
+  {
+    "slug": "teammate25",
+    "title": "Teammate Hunt 2025: Matt & Emma's Deep-Space Disaster",
+    "thumbnail": "/assets/img/illustrations/tmh25_boom.jpeg",
+    "year": 2025,
+    "type": "project",
+    "description": "Some of the assets and wip studies created for Teammate Hunt 2025, including icons, and other visual elements for interactivity. I mostly include samples where I owned 50%+ of the render, but full credits on the website. https://2025.teammatehunt.com/",
+    "images": [
+      { "src": "/assets/img/illustrations/tmh25_sw.jpeg", "description": "Final spacewalk panels" },
+      { "src": "/assets/img/illustrations/tmh25_other.jpeg", "description": "Examples of final comic panels" },
+      { "src": "/assets/img/illustrations/tmh25_gh.jpeg", "description": "Storyboard --> final comic process for a single panel" },
+      { "src": "/assets/img/illustrations/tmh25_flashlights.jpeg", "description": "Color study for lights off scenes" },
+      { "src": "/assets/img/illustrations/tmh25_gh_color.jpeg", "description": "Coloring study of halftones using greenhouse as an example" },
+      { "src": "/assets/img/illustrations/tmh25_mattemma.jpeg", "description": "Compilation of Matt and Emma poses" }
+    ]
   },
   {
     "slug": "tothemoon",
