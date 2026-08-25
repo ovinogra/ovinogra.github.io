@@ -4,6 +4,7 @@ title: blog
 permalink: /blog/
 ---
 
-# Blog
-
-WIP: Posts about puzzles, art, and whatever else I'm building.
+<div class="default-width">
+  <h1>Blog</h1>
+  <p>WIP: Posts about puzzles, art, and whatever else I'm building.</p>
+</div>

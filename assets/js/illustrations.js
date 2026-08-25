@@ -32,18 +32,26 @@ function goToIllustration(index) {
 
 function renderImages(sources) {
   viewerImage.innerHTML = "";
-  sources.forEach((src) => {
+  sources.forEach((source) => {
     const img = document.createElement("img");
-    img.src = src;
+    img.src = source.src;
     img.alt = "";
     viewerImage.appendChild(img);
+
+    if (source.description) {
+      const caption = document.createElement("p");
+      caption.className = "viewer-image-caption";
+      caption.textContent = source.description;
+      viewerImage.appendChild(caption);
+    }
   });
 }
 
 function showViewer(item) {
   if (!item) return;
   currentIndex = getIllustrationIndex(item.slug);
-  const sources = item.type === "project" ? item.images || [] : [item.image];
+  const sources =
+    item.type === "project" ? (item.images || []).map((image) => (typeof image === "string" ? { src: image } : image)) : [{ src: item.image }];
   renderImages(sources);
   viewerTitle.textContent = item.title;
   viewerCaption.textContent = item.description || "";
