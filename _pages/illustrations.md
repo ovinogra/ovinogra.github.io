@@ -5,8 +5,16 @@ permalink: /illustrations/
 full_width: true
 ---
 
+<!-- <div class="default-width">
+  <p>Jump to: <a>projects</a> <a>singles</a></p>
+</div> -->
+
 <div class="full-width">
-  <h1>Single Illustrations</h1>
+  <h1>Projects</h1>
+</div>
+
+<div class="full-width">
+  <h1>Individual Illustrations</h1>
 </div>
 
 <div class="full-width">

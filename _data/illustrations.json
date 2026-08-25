@@ -1,5 +1,25 @@
 [
   {
+    "slug": "proj1_1",
+    "title": "To the Moon",
+    "image": "/assets/img/illustrations/tothemoon.jpeg",
+    "thumbnail": "/assets/img/illustrations/tothemoon.jpeg",
+    "year": 2025,
+    "type": "project",
+    "series": "test1",
+    "description": "test"
+  },
+  {
+    "slug": "proj1_2",
+    "title": "City Walkway",
+    "image": "/assets/img/illustrations/citywalkway.jpeg",
+    "thumbnail": "/assets/img/illustrations/citywalkway.jpeg",
+    "year": 2024,
+    "type": "project",
+    "series": "test1"
+  },
+
+  {
     "slug": "tothemoon",
     "title": "To the Moon",
     "image": "/assets/img/illustrations/tothemoon.jpeg",
