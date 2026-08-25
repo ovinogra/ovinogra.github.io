@@ -3,7 +3,7 @@
   --text: #313131;
   --heading: #222;
   --link: #0076df;
-  --border: #e6e6e6;
+  --border: #898989;
   --illustration-tile-min: 180px;
   --illustration-tile-max: 200px;
   --illustration-tile-gap: 1rem;
@@ -14,7 +14,7 @@
   --text: #d7d7d7;
   --heading: #fff;
   --link: #7eb8ff;
-  --border: #333;
+  --border: #7a7a7a;
 }
 
 html {
