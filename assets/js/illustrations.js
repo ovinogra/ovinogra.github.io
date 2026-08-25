@@ -30,11 +30,21 @@ function goToIllustration(index) {
   showViewer(item);
 }
 
+function renderImages(sources) {
+  viewerImage.innerHTML = "";
+  sources.forEach((src) => {
+    const img = document.createElement("img");
+    img.src = src;
+    img.alt = "";
+    viewerImage.appendChild(img);
+  });
+}
+
 function showViewer(item) {
   if (!item) return;
   currentIndex = getIllustrationIndex(item.slug);
-  viewerImage.src = item.image;
-  viewerImage.alt = item.title;
+  const sources = item.type === "project" ? item.images || [] : [item.image];
+  renderImages(sources);
   viewerTitle.textContent = item.title;
   viewerCaption.textContent = item.description || "";
   viewerCaption.hidden = !item.description;

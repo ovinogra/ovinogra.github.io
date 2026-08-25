@@ -24,25 +24,33 @@ full_width: true
           <p class="viewer-caption" hidden></p>
         </div>
       </div>
-      <img class="viewer-image" src="" alt="">
+      <div class="viewer-image"></div>
     </div>
   </div>
 </div>
 
 <div class="full-width">
   <h1>Projects</h1>
-  <!-- this needs to show only json objects with type project -->
+  <!-- this shows only json objects with type "project" -->
   <div class="illustrations-grid">
-    todo
+    {% assign projects = site.data.illustrations | where: "type", "project" %}
+    {% for item in projects %}
+    <a class="illustrations-tile" href="#{{ item.slug }}" data-slug="{{ item.slug }}" aria-label="Open {{ item.title }}">
+      <img src="{{ item.thumbnail }}" alt="{{ item.title }}">
+      <span class="tile-overlay"></span>
+      <span class="tile-label">open</span>
+    </a>
+    {% endfor %}
   </div>
 </div>
 
 <div class="full-width">
   <h1>Individual Illustrations</h1>
-  <!-- this needs to show only json objects with type single -->
+  <!-- this shows only json objects with type "single" -->
   <div class="illustrations-grid">
-    {% for item in site.data.illustrations %}
-    <a class="illustrations-tile" href="#{{ item.slug }}" data-slug="{{ item.slug }}" data-image="{{ item.image }}" data-title="{{ item.title }}" aria-label="Open {{ item.title }}">
+    {% assign singles = site.data.illustrations | where: "type", "single" %}
+    {% for item in singles %}
+    <a class="illustrations-tile" href="#{{ item.slug }}" data-slug="{{ item.slug }}" aria-label="Open {{ item.title }}">
       <img src="{{ item.image }}" alt="{{ item.title }}">
       <span class="tile-overlay"></span>
       <span class="tile-label">open</span>
