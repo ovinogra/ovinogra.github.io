@@ -20,7 +20,7 @@ full_width: true
       <img class="viewer-image" src="" alt="">
       <div class="viewer-meta">
         <h2 class="viewer-title"></h2>
-        <!-- <p class="viewer-caption">Click another tile or close to return to the grid.</p> -->
+        <p class="viewer-caption" hidden></p>
       </div>
     </div>
   </div>

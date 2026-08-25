@@ -246,7 +246,7 @@ a {
 
 .viewer-caption {
   margin: 0;
-  color: #666;
+  color: var(--text);
 }
 
 .illustrations-grid {

@@ -2,6 +2,7 @@ const illustrationTiles = document.querySelectorAll(".illustrations-tile");
 const viewer = document.querySelector(".art-viewer");
 const viewerImage = document.querySelector(".viewer-image");
 const viewerTitle = document.querySelector(".viewer-title");
+const viewerCaption = document.querySelector(".viewer-caption");
 const viewerClose = document.querySelector(".viewer-close");
 const viewerPrev = document.querySelector(".viewer-prev");
 const viewerNext = document.querySelector(".viewer-next");
@@ -35,6 +36,8 @@ function showViewer(item) {
   viewerImage.src = item.image;
   viewerImage.alt = item.title;
   viewerTitle.textContent = item.title;
+  viewerCaption.textContent = item.description || "";
+  viewerCaption.hidden = !item.description;
   viewer.hidden = false;
   viewer.classList.add("open");
 }
