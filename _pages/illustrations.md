@@ -5,8 +5,8 @@ permalink: /illustrations/
 full_width: true
 ---
 
-<div class="default-width">
-  <h1>Illustrations</h1>
+<div class="full-width">
+  <h1>Single Illustrations</h1>
 </div>
 
 <div class="full-width">

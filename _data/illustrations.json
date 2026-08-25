@@ -6,7 +6,8 @@
     "thumbnail": "/assets/img/illustrations/tothemoon.jpeg",
     "year": 2025,
     "type": "single",
-    "series": null
+    "series": null,
+    "description": "placeholder"
   },
   {
     "slug": "city-walkway",
