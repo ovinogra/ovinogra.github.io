@@ -308,6 +308,8 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 0.75rem;
+  text-align: center;
+  padding: 0 0.75rem;
   opacity: 0;
   transition: opacity 0.25s ease;
 }

@@ -38,7 +38,7 @@ full_width: true
     <a class="illustrations-tile" href="#{{ item.slug }}" data-slug="{{ item.slug }}" aria-label="Open {{ item.title }}">
       <img src="{{ item.thumbnail }}" alt="{{ item.title }}">
       <span class="tile-overlay"></span>
-      <span class="tile-label">open</span>
+      <span class="tile-label">{{ item.title }}</span>
     </a>
     {% endfor %}
   </div>
@@ -53,7 +53,7 @@ full_width: true
     <a class="illustrations-tile" href="#{{ item.slug }}" data-slug="{{ item.slug }}" aria-label="Open {{ item.title }}">
       <img src="{{ item.image }}" alt="{{ item.title }}">
       <span class="tile-overlay"></span>
-      <span class="tile-label">open</span>
+      <span class="tile-label">{{ item.title }}</span>
     </a>
     {% endfor %}
   </div>
