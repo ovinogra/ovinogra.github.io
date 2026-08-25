@@ -10,14 +10,7 @@ full_width: true
 </div> -->
 
 <div class="full-width">
-  <h1>Projects</h1>
-</div>
-
-<div class="full-width">
-  <h1>Individual Illustrations</h1>
-</div>
-
-<div class="full-width">
+<br>
   <div class="art-viewer" hidden>
     <div class="viewer-panel">
       <div class="viewer-rail">
@@ -34,7 +27,19 @@ full_width: true
       <img class="viewer-image" src="" alt="">
     </div>
   </div>
+</div>
 
+<div class="full-width">
+  <h1>Projects</h1>
+  <!-- this needs to show only json objects with type project -->
+  <div class="illustrations-grid">
+    todo
+  </div>
+</div>
+
+<div class="full-width">
+  <h1>Individual Illustrations</h1>
+  <!-- this needs to show only json objects with type single -->
   <div class="illustrations-grid">
     {% for item in site.data.illustrations %}
     <a class="illustrations-tile" href="#{{ item.slug }}" data-slug="{{ item.slug }}" data-image="{{ item.image }}" data-title="{{ item.title }}" aria-label="Open {{ item.title }}">
