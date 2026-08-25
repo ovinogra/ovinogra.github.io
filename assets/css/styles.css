@@ -199,15 +199,19 @@ a {
   align-items: center;
 }
 
+.viewer-rail {
+  order: 2;
+  width: 100%;
+  margin-top: 0.75rem;
+}
+
 .viewer-controls {
   display: flex;
-  order: 2;
   flex-direction: row;
   gap: 0.35rem;
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 0.75rem;
 }
 
 .viewer-button {
@@ -236,7 +240,6 @@ a {
 }
 
 .viewer-meta {
-  order: 3;
   margin-top: 1rem;
   text-align: center;
 }
@@ -341,21 +344,25 @@ a {
 
   .viewer-image {
     grid-column: 1;
-    grid-row: 1 / span 2;
+    grid-row: 1;
     margin: 0;
   }
 
-  .viewer-controls {
+  .viewer-rail {
     grid-column: 2;
     grid-row: 1;
+    position: sticky;
+    top: 1rem;
+    align-self: start;
     width: auto;
     margin-top: 0;
   }
 
+  .viewer-controls {
+    width: auto;
+  }
+
   .viewer-meta {
-    grid-column: 2;
-    grid-row: 2;
-    width: 100%;
     margin-top: 1rem;
     text-align: left;
   }
