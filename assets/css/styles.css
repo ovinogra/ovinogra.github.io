@@ -118,7 +118,7 @@ body {
 .post-list-item {
   display: flex;
   gap: 1rem;
-  padding: 0.4rem 0;
+  padding: 0.2rem 0;
   /* border-bottom: 1px dashed var(--border); */
 }
 
