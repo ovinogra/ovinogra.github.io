@@ -5,6 +5,8 @@ markdown: kramdown
 
 collections: {}
 
+permalink: /blog/:title/
+
 # Includes & excludes
 include: ["_pages"]
 exclude:

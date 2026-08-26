@@ -109,6 +109,32 @@ body {
   padding: 2rem 0 1rem;
 }
 
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-list-item {
+  display: flex;
+  gap: 1rem;
+  padding: 0.4rem 0;
+  /* border-bottom: 1px dashed var(--border); */
+}
+
+.post-list-date {
+  flex-shrink: 0;
+  width: 8em;
+  color: var(--text);
+  opacity: 0.7;
+}
+
+.post-header-date {
+  display: block;
+  color: var(--text);
+  opacity: 0.7;
+}
+
 .full-width {
   width: 100%;
   max-width: none;
