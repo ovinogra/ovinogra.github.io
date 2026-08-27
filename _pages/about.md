@@ -16,9 +16,8 @@ permalink: /
   <h2>Site details</h2>
   <p>I originally tried to take an existing portfolio template from github and gut out unneeded features + add missing ones, but then just ended up rewriting it from scratch.</p>
   <p>This site is built with Jekyll and kept intentionally lightweight and minimal.</p>
-  <p>Why "moonrise"? Something to do with many late nights of creative work in time to see the moon traverse the sky at various times.</p>
 
   <h2>Contact</h2>
-  <span>ovinogra (a) alumni.cmu.edu</span> • <a href="https://www.linkedin.com/in/ovinogradova/">LinkedIn</a> • <a href="https://github.com/ovinogra">GitHub</a>
+  <span>ovinogra (a) alumni.cmu.edu</span>
 
 </div>
